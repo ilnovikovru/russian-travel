@@ -34,15 +34,15 @@
 @import url(../blocks/places/places.css);
 
 @font-face {
-    font-family: Inter; 
-    src: url("../fonts/Inter-Regular.woff2") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    font-family: Inter;
+    src: url("../fonts/Inter-Regular.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
     
 @font-face {
-    font-family: 'Inter Bold'; 
-    src: url("../fonts/Inter-Bold.woff2") format("truetype"); 
-    font-style: normal; 
+    font-family: 'Inter Bold';
+    src: url("../fonts/Inter-Bold.woff2") format("truetype");
+    font-style: normal;
     font-weight: bold;
 }
