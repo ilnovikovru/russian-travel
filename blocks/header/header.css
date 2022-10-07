@@ -1,0 +1,8 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 30px 29px;
+    align-items: center;
+    gap: 18px;
+    max-width: 1184px;
+    margin: auto;
+}

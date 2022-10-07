@@ -1,0 +1,24 @@
+.lead__image {
+    align-self: center;
+    max-width: 984px;
+    max-height: 615px;
+}
+
+@media screen and (max-device-width: 1024px) {
+    .lead__image {
+        max-width: 984px;
+        max-height: 615px;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .lead__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 425px) {
+    .lead__image {
+        max-width: 100%;
+    }
+}
