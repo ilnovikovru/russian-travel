@@ -6,3 +6,9 @@
   flex-direction: row;
   gap: 18px;
 }
+
+@media screen and (max-device-width: 680px) {
+  .footer__menu {
+    flex-direction: column;
+  }
+}
