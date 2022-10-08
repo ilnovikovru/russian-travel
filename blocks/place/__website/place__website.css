@@ -1,25 +1,25 @@
 .place__website {
-    align-self: end;
-    margin-bottom: 48px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
+  align-self: end;
+  margin-bottom: 48px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-device-width: 1024px) {
-    .place__website {
-        margin-left: 32px;
-    }
+  .place__website {
+    margin-left: 32px;
+  }
 }
 
 @media screen and (max-device-width: 768px) {
-    .place__website {
-        margin-left: 28px;
-    }
+  .place__website {
+    margin-left: 28px;
+  }
 }
 
 @media screen and (max-device-width: 425px) {
-    .place__website {
-        margin-left: 0;
-    }
+  .place__website {
+    margin-left: 0;
+  }
 }

@@ -1,11 +1,11 @@
 .place {
-    display: grid;
-    padding-top: 80px;
-    grid-template-columns: 49% 51%;
+  display: grid;
+  padding-top: 80px;
+  grid-template-columns: 49% 51%;
 }
 
 @media screen and (max-device-width: 425px) {
-    .place {
-        grid-template-columns: 100%;
-    }
+  .place {
+    grid-template-columns: 100%;
+  }
 }
