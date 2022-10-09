@@ -1,10 +1,26 @@
 .place {
   display: grid;
-  padding-top: 80px;
-  grid-template-columns: 49% 51%;
+  grid-template-columns: 47% 53%;
+  padding-bottom: 78px;
 }
 
-@media screen and (max-device-width: 425px) {
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 47.3% 52.7%;
+    padding-bottom: 82px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding-bottom: 48px;
+  }
+  .place:last-of-type {
+    padding-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .place {
     grid-template-columns: 100%;
   }
