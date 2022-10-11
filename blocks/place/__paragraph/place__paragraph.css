@@ -2,14 +2,20 @@
   margin: 0;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.63;
   align-self: start;
   margin-left: 38px;
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     margin-left: 32px;
+    margin-bottom: 27px;
   }
 }
 
@@ -17,7 +23,7 @@
   .place__paragraph {
     margin-left: 28px;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.63;
     margin-bottom: 25px;
   }
 }
@@ -28,7 +34,6 @@
     margin-top: 27px;
     padding-left: 16px;
     padding-right: 16px;
-    margin-bottom: 0;
     line-height: 1.64;
   }
 }
