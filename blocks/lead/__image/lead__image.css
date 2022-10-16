@@ -8,6 +8,15 @@
 @media screen and (max-width: 1024px) {
   .lead__image {
     width: 100%;
+    max-width: 928px;
+    max-height: 580px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
     padding-left: 0;
     padding-right: 0;
   }
