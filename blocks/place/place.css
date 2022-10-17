@@ -25,3 +25,9 @@
     grid-template-columns: 100%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    padding-bottom: 54px;
+  }
+}
