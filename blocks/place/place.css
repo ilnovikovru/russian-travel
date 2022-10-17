@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place {
+  .place:last-of-type {
     padding-bottom: 54px;
   }
 }
